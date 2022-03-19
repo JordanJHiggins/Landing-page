@@ -5,7 +5,7 @@
 
 body {
 }
-
+/* Navbar Section */
 .navbar,
 .nav,
 a {
@@ -14,6 +14,7 @@ a {
   text-decoration: none;
   list-style: none;
 }
+
 ul {
   display: flex;
   gap: 15px;
@@ -26,4 +27,30 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 0px 100px;
+}
+/* Header section */
+.header {
+  color: white;
+  background-color: #1f2937;
+  min-height: 450px;
+  padding-top: 100px;
+}
+
+.header p,
+.header h1 {
+  width: 300px;
+  margin: 10px 0px;
+}
+
+.header-photo {
+  object-fit: fill;
+  height: 200px;
+  width: 450px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
