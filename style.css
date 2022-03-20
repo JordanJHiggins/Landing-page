@@ -4,7 +4,10 @@
 }
 
 body {
+  overflow: scroll;
+  height: 100vh;
 }
+
 /* Navbar Section */
 .navbar,
 .nav,
@@ -64,7 +67,6 @@ ul {
   min-height: 350px;
   justify-content: center;
   align-items: center;
-  /* gap: 27px; */
 }
 
 .container h2 {
@@ -91,4 +93,18 @@ ul {
 
 .photo-container p {
   padding-top: 5px;
+}
+
+/* Quote section */
+
+.quote .container {
+  background-color: #e5e7eb;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p {
+  width: 355px;
 }
