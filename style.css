@@ -32,8 +32,8 @@ ul {
 .header {
   color: white;
   background-color: #1f2937;
-  min-height: 450px;
-  padding-top: 100px;
+  min-height: 350px;
+  padding-top: 150px;
 }
 
 .header p,
@@ -46,6 +46,7 @@ ul {
   object-fit: fill;
   height: 200px;
   width: 450px;
+  display: flex;
 }
 
 .header .container {
@@ -53,4 +54,41 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 30px;
+}
+
+/* Info section */
+
+.info .container {
+  height: 100%;
+  display: flex;
+  min-height: 350px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 27px; */
+}
+
+.container h2 {
+  align-self: flex-start;
+  position: absolute;
+  padding-top: 15px;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  max-height: fit-content;
+  padding: 0px 20px;
+}
+
+.info-photo {
+  object-fit: fill;
+  border-radius: 25px;
+  border: solid #3882f6 2px;
+  height: 100px;
+  width: 100px;
+}
+
+.photo-container p {
+  padding-top: 5px;
 }
