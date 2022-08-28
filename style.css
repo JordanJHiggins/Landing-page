@@ -56,19 +56,32 @@ h1 {
 }
 
 /* Content Section One */
-.content-container-one {
-  display: flex;
-  flex-direction: column;
-}
 h3 {
   color: #1f2937;
   font-size: 36px;
   font-weight: bolder;
+  align-self: center;
+}
+.content-container-one {
   display: flex;
+  flex-direction: column;
+}
+
+.small-img-parent {
+  display: flex;
+  justify-content: center;
+}
+.small-img-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100px;
+  padding: 0px 50px 0px 50px;
 }
 
 .small-img {
-  max-width: 7%;
+  align-self: center;
+  max-width: 100px;
   border: solid #3882f6;
   border-radius: 5px;
 }
