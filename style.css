@@ -1,5 +1,6 @@
 body,
 h1 {
+  font-family: roboto, Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -10,7 +11,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 16px;
+  padding: 0px 100px 100px 100px;
 }
 .header-logo {
   font-size: 24px;
@@ -20,18 +21,26 @@ ul {
   display: flex;
   gap: 20px;
   list-style: none;
-  padding-right: 16px;
 }
 
 /* Hero */
 .hero-container {
   color: #f9faf8;
   background-color: #1f2937;
+  padding: 0px 100px 40px 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-text {
   font-size: 18px;
   color: #e5e7eb;
+  max-width: 35%;
+}
+.hero-img {
+  align-self: center;
+  padding-left: 200px;
+  max-width: 40%;
 }
 
 h1 {
@@ -47,10 +56,21 @@ h1 {
 }
 
 /* Content Section One */
+.content-container-one {
+  display: flex;
+  flex-direction: column;
+}
 h3 {
   color: #1f2937;
   font-size: 36px;
   font-weight: bolder;
+  display: flex;
+}
+
+.small-img {
+  max-width: 7%;
+  border: solid #3882f6;
+  border-radius: 5px;
 }
 
 /* Content Section Two */
