@@ -65,6 +65,7 @@ h3 {
 .content-container-one {
   display: flex;
   flex-direction: column;
+  height: 400px;
 }
 
 .small-img-parent {
@@ -89,6 +90,26 @@ h3 {
 /* Content Section Two */
 .content-container-two {
   background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.main-text-container {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  width: 700px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.quote-container {
+  font-size: 18px;
+  display: inline-block;
+  text-align: right;
 }
 
 /* Content Section Three */
