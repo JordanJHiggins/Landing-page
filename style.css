@@ -65,7 +65,7 @@ h3 {
 .content-container-one {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  min-height: 400px;
 }
 
 .small-img-parent {
@@ -90,7 +90,7 @@ h3 {
 /* Content Section Two */
 .content-container-two {
   background-color: #e5e7eb;
-  height: 400px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -113,22 +113,46 @@ h3 {
 }
 
 /* Content Section Three */
+h6 {
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 0;
+}
 .content-container-three {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  min-height: 400px;
 }
 
 .sign-up-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #3882f6;
-  border-radius: 5px;
-  max-width: 50%;
-  max-height: 30%;
+  border-radius: 7px;
+  max-height: 40%;
+  width: 70%;
+  padding: 50px 0px 50px 0px;
 }
+
+.sign-up-text {
+  color: #f9faf8;
+  padding-right: 200px;
+}
+
+.inner-text {
+  font-weight: lighter;
+  margin: 0;
+}
+
 .button-two {
+  color: #f9faf8;
   background-color: #3882f6;
-  border-radius: 5px;
-  border: solid white;
+  border-radius: 7px;
+  border: 2px solid white;
+  height: 40px;
+  width: 100px;
 }
 
 /* Footer */
