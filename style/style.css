@@ -77,7 +77,8 @@ h3 {
   flex-direction: column;
   flex-wrap: wrap;
   max-width: 100px;
-  padding: 0px 50px 0px 50px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .small-img {
@@ -90,7 +91,7 @@ h3 {
 /* Content Section Two */
 .content-container-two {
   background-color: #e5e7eb;
-  min-height: 400px;
+  min-height: 300px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -101,7 +102,8 @@ h3 {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
-  width: 700px;
+  width: 100%;
+  padding: 20%;
 }
 
 .quote-container {
@@ -131,7 +133,7 @@ h6 {
   border-radius: 7px;
   max-height: 40%;
   width: 70%;
-  padding: 50px 0px 50px 0px;
+  padding: 6%;
 }
 
 .sign-up-text {
